@@ -1,0 +1,28 @@
+=== GEO ===
+{
+  "ip": "4.155.45.97",
+  "city": "Moses Lake",
+  "region": "Washington",
+  "country": "US",
+  "loc": "47.1301,-119.2781",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "98837",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth"
+}=== PULL ===
+Status: Downloaded newer image for ghcr.io/yelihua77-source/gptload-us:latest
+ghcr.io/yelihua77-source/gptload-us:latest
+=== RUN ===
+gl
+327539e9348d0d513ae09103dd9a07c52aa45cbcd094a75559b2fd4152d298c4
+=== PS ===
+gl|Up 35 seconds|8080/tcp, 0.0.0.0:3001->7860/tcp, [::]:3001->7860/tcp
+=== HEALTH ===
+gl=200
+=== CFD ===
+curl: (23) Failure writing output to destination
+[2] 13771
+[1]-  Done                    nohup /tmp/cloudflared tunnel run --token eyJhIjoiZWYxNTJkZmY1YTdhYjVjMTUxMWVjOTE3NDBlZmVmMzgiLCJ0IjoiZjI4ZDIyODktOTkyZC00MDhjLTk4NmUtMTEwZjM1YTRmMWE2IiwicyI6IjVBdm9UbzVKaUFZZU8rcFRNcS9BQ3o1KzZjMkV5OWRaVnVjVDBWR2dVVHc9In0= > /tmp/cfd.log 2>&1
+cfd_conns=4
+grep: /tmp/cfd.log: binary file matches
+=== FINISHED ===
